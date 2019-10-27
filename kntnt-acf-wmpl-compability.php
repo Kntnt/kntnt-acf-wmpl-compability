@@ -18,11 +18,11 @@
  * a magnify  glass. This removes that magnify glass from ACF fields.
  */
 add_action( 'admin_head', function () {
-	?>
+  ?>
     <style>
-        .acf-input .select2-search input {
-            background-image: none !important;
-        }
+      .acf-input .select2-search input {
+        background-image: none !important;
+      }
     </style>
-	<?php
+  <?php
 } );
